@@ -7,23 +7,33 @@ html {
 body {
   font-family: "Goldman", cursive;
   background-color: black;
+  position: -webkit-sticky;
+  min-height: 100vh;
+  text-align: left;
+  overflow: scroll;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 nav {
   display: flex;
   width: 100%;
-  padding: 2rem;
+  padding: 20px;
   min-height: 10vh;
-  align-items: center;
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
 }
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+
 }
 nav li {
   font-size: 2.5rem;
@@ -45,7 +55,10 @@ font-family: Verdana;
 list-style-type: circle;
 
 }
-tekst2
+
+
+
+.tekst2
 
 {
 font-size: 24px;  
@@ -63,12 +76,35 @@ font-family: Verdana;
 footer{
   height: auto;
   background-color: #00a8c7;
-  padding: 60px;
+  padding: 2px;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  
   }
 
 
 li{
   font-weight: bold;
   font-style: italic;
+  text-align: center;
+  font-size: 100px;
 }
+
+img {
+ height: 80px;
+}
+
+#foto {
+  float: right;
+  margin-top: 100px;
+}
+
+#fototjes {
+  float: left;
+  margin-top: 100px;
+}
+
+
+
 
